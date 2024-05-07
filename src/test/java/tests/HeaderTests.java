@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.Owner;
 import io.qameta.allure.selenide.AllureSelenide;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -150,6 +151,30 @@ public class HeaderTests extends TestBase {
 
         step("Click on YouTube", () -> {
             inlineGroupMainPage.clickOnYouTube();
+        });
+
+        step("Check a new tab was opened", () -> {
+            inlineGroupMainPage.checkNewTabOpened();
+        });
+    }
+
+    @Test
+    @Disabled("To be updated soon")
+    @Owner("Evgeniia Liasheva")
+    @DisplayName("Verify social links opening: Telegram")
+    void checkTelegramOpening() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+
+        step("Open not existing page", () -> {
+            inlineGroupMainPage.openPage();
+        });
+
+        step("Get number of opened tabs", () -> {
+            inlineGroupMainPage.getTabsCount();
+        });
+
+        step("Click on Telegram", () -> {
+            //inlineGroupMainPage.;
         });
 
         step("Check a new tab was opened", () -> {
