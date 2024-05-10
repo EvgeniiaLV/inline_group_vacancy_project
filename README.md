@@ -58,10 +58,10 @@ clean vacancyProjectRegress
 -Dbrowser=${BROWSER} 
 -DbrowserSize=${BROWSER_SIZE} 
 -DbrowserVersion=${BROWSER_VERSION}
----
+
 ### Allure reporting
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
----
+
 ### Integration with Allure TestOps
 Test run statistics in Allure TestOps:
 
