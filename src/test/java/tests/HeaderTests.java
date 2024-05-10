@@ -14,11 +14,11 @@ import static utils.TestData.INVALID_VALUE_FOR_SEARCH;
 import static utils.TestData.VALUE_FOR_POSITIVE_SEARCH;
 
 @Tag("regressionTests")
+@Owner("Evgeniia Liasheva")
 public class HeaderTests extends TestBase {
     InlineGroupMainPage inlineGroupMainPage = new InlineGroupMainPage();
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Successful search")
     void successfulSearch() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -41,7 +41,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Search with invalid value")
     void searchWithInvalidValue() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -64,7 +63,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Check default language: RU")
     void checkDefaultLanguageLink() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -79,7 +77,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Verify switching language to EN")
     void checkSwitchingLanguageToEN() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -98,7 +95,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Verify page not found error message")
     void checkPageNotFoundErrorMessage() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -113,7 +109,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Verify social links opening: VK")
     void checkVKOpening() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -136,7 +131,6 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Verify social links opening: YouTube")
     void checkYouTubeOpening() {
         SelenideLogger.addListener("allure", new AllureSelenide());
@@ -160,7 +154,6 @@ public class HeaderTests extends TestBase {
 
     @Test
     @Disabled("To be updated soon")
-    @Owner("Evgeniia Liasheva")
     @DisplayName("Verify social links opening: Telegram")
     void checkTelegramOpening() {
         SelenideLogger.addListener("allure", new AllureSelenide());
