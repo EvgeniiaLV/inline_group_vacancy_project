@@ -15,7 +15,7 @@
 ---
 ### Tools and technologies
 <p align="left">
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" height="40" width="40" /> 
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/staticFiles/icons/gitHub.svg" height="40" width="40" /> 
   <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40" />
   <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" height="40" width="40" />
   <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" height="40" width="40" />

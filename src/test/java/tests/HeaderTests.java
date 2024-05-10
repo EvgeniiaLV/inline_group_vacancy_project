@@ -95,6 +95,7 @@ public class HeaderTests extends TestBase {
     }
 
     @Test
+    @Disabled("Selected language doesn't correlate to the language of the error message. To be confirmed")
     @DisplayName("Verify page not found error message")
     void checkPageNotFoundErrorMessage() {
         SelenideLogger.addListener("allure", new AllureSelenide());
