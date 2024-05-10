@@ -15,15 +15,18 @@
 ---
 ### Tools and technologies
 <p align="left">
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/staticFiles/icons/gitHub.svg" height="40" width="40" /> 
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" width="40" />
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" height="40" width="40" />
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gradle/gradle-original.svg" height="40" width="40" />
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" height="40" width="40" />
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/junit/junit-plain-wordmark.svg" height="40" width="40" />       
-  <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/gitHub.svg" height="40" width="40" /> 
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/java.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/IntelliJIdea.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/gradle.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/jenkins.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/junit5.svg" height="40" width="40" />       
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/jira.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/allure.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/allureTestOps.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/selenide.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/telegram.svg" height="40" width="40" />
 </p>
----
 
 ### Test scenarios
 #### Automated check list:
@@ -40,36 +43,36 @@
 3. By clicking on left arrow on the central slider opens previous advertisement slide
 ---
 ### CI CD Jenkins
-
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsDashboard.jpg"/>
 
 #### Parameters:
-BROWSER - browser (Chrome by default)
-BROWSER_SIZE - browser window size (1920x1080 by default)
-BROWSER_VERSION - browser version (120.0 by default)
-REMOTE_DRIVER_URL - remote Selenoid server, login & password
+BROWSER - browser (Chrome by default)  
+BROWSER_SIZE - browser window size (1920x1080 by default)  
+BROWSER_VERSION - browser version (120.0 by default)  
+REMOTE_DRIVER_URL - remote Selenoid server, login & password  
 
 ---
 ### How to launch
-#### Locally
+#### Locally:
 gradle clean vacancyProjectRegress
-#### From Jenkins
-clean vacancyProjectRegress 
--DremoteDriverURL=${REMOTE_DRIVER_URL} 
--Dbrowser=${BROWSER} 
--DbrowserSize=${BROWSER_SIZE} 
--DbrowserVersion=${BROWSER_VERSION}
+#### From Jenkins:
+clean vacancyProjectRegress  
+-DremoteDriverURL=${REMOTE_DRIVER_URL}  
+-Dbrowser=${BROWSER}  
+-DbrowserSize=${BROWSER_SIZE}  
+-DbrowserVersion=${BROWSER_VERSION}  
 
 ### Allure reporting
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
 
 ### Integration with Allure TestOps
-Test run statistics in Allure TestOps:
-
----
+Test run statistics in Allure TestOps:  
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsDashboard.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsAutomatedTestCases.jpg"/>
 ### Integration with Jira
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jiraTask.jpg"/>
 
----
 ### Notifications in Telegram
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/telegramBotNotifications.jpg"/>
 
----
 ### Test execution exanple
