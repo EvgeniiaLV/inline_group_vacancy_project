@@ -53,7 +53,11 @@ REMOTE_DRIVER_URL - remote Selenoid server, login & password
 #### Locally
 gradle clean vacancyProjectRegress
 #### From Jenkins
-clean vacancyProjectRegress -DremoteDriverURL=${REMOTE_DRIVER_URL} -Dbrowser=${BROWSER} -DbrowserSize=${BROWSER_SIZE} -DbrowserVersion=${BROWSER_VERSION}
+clean vacancyProjectRegress 
+-DremoteDriverURL=${REMOTE_DRIVER_URL} 
+-Dbrowser=${BROWSER} 
+-DbrowserSize=${BROWSER_SIZE} 
+-DbrowserVersion=${BROWSER_VERSION}
 ---
 ### Allure reporting
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
