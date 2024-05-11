@@ -44,7 +44,7 @@
 3. By clicking on left arrow on the central slider opens previous advertisement slide
 ---
 ### CI CD Jenkins
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsDashboard.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsProject.jpg"/>
 
 #### Parameters:
 BROWSER - browser (Chrome by default)  
@@ -64,22 +64,25 @@ clean vacancyProjectRegress
 -DbrowserVersion=${BROWSER_VERSION}
 
 ### Allure reporting
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReport.jpg"/>
-
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReport.jpg"/>  
+  
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReportTaskSteps.jpg"/>
 ---
 ### Integration with Allure TestOps
-Test run statistics in Allure TestOps:  
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsProject.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsDashboard.jpg"/>
 
+Test run statistics in Allure TestOps:  
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsAutomatedTestCases.jpg"/>
----
+
+Launches:  
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsLaunches.jpg"/>
+  
 ### Integration with Jira
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jiraTask.jpg"/>
----
+  
 ### Notifications in Telegram
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/telegramBotNotifications.jpg"/>  
----
+  
 ### Test execution example
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/VideoTestExample.mp4"/>
+![Test video](https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/video/VideoTestExample.gif)
