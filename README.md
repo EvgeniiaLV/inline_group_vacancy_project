@@ -1,4 +1,4 @@
-## Training project for the company's website [Inline Group](https://inlinegroup.ru/)  
+## Training project for the company's website [Inline Group](https://inlinegroup.ru/)
 
 <image src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/assets/153442050/329cb0b4-53b8-483e-8a9a-f74b0f5c790d" width="150" height="150"/>
 
@@ -11,7 +11,7 @@
 5. [Integration with Allure TestOps](#integration-with-allure-testops)
 6. [Integration with Jira](#integration-with-jira)
 7. [Notifications in Telegram](#notifications-in-telegram)
-8. [Test execution exanple](#test-execution-exanple)
+8. [Test execution example](#test-execution-example)
 ---
 ### Tools and technologies
 <p align="left">
@@ -44,45 +44,72 @@
 3. By clicking on left arrow on the central slider opens previous advertisement slide
 ---
 ### CI CD Jenkins
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsProject.jpg"/>
+
+</pre>
 
 #### Parameters:
 BROWSER - browser (Chrome by default)  
 BROWSER_SIZE - browser window size (1920x1080 by default)  
 BROWSER_VERSION - browser version (120.0 by default)  
-REMOTE_DRIVER_URL - remote Selenoid server, login & password  
+REMOTE_DRIVER_URL - remote Selenoid server, login & password
 
 ---
 ### How to launch
 #### Locally
 gradle clean vacancyProjectRegress
 #### From Jenkins
-clean vacancyProjectRegress 
--DremoteDriverURL=${REMOTE_DRIVER_URL} 
--Dbrowser=${BROWSER} 
--DbrowserSize=${BROWSER_SIZE} 
+clean vacancyProjectRegress
+-DremoteDriverURL=${REMOTE_DRIVER_URL}
+-Dbrowser=${BROWSER}
+-DbrowserSize=${BROWSER_SIZE}
 -DbrowserVersion=${BROWSER_VERSION}
 
 ### Allure reporting
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReport.jpg"/>  
-  
+
+</pre>
+
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReportTaskSteps.jpg"/>
+
+</pre>
 ---
 ### Integration with Allure TestOps
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsDashboard.jpg"/>
 
-Test run statistics in Allure TestOps:  
+</pre>
+
+Test run statistics in Allure TestOps:
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsAutomatedTestCases.jpg"/>
 
-Launches:  
+</pre>
+
+Launches:
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsLaunches.jpg"/>
-  
+
+</pre>
+
 ### Integration with Jira
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jiraTask.jpg"/>
-  
+
+</pre>
+
 ### Notifications in Telegram
+<pre>
 <img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/telegramBotNotifications.jpg"/>  
-  
+
+</pre>
+
 ### Test execution example
-![Test video](https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/video/VideoTestExample.gif)
+<pre>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/video/VideoTestExample.gif"/>  
+
+</pre>
