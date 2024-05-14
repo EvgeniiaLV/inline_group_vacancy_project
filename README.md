@@ -27,6 +27,7 @@
   <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/selenide.svg" height="40" width="40" />
   <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/telegram.svg" height="40" width="40" />
 </p>
+
 ---
 
 ### Test scenarios
