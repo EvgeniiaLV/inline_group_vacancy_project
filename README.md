@@ -15,17 +15,17 @@
 ---
 ### Tools and technologies
 <p align="left">
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/gitHub.svg" height="40" width="40" /> 
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/java.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/IntelliJIdea.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/gradle.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/jenkins.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/junit5.svg" height="40" width="40" />       
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/jira.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/allure.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/allureTestOps.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/selenide.svg" height="40" width="40" />
-  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/icons/telegram.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/gitHub.svg" height="40" width="40" /> 
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/java.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/IntelliJIdea.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/gradle.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/jenkins.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/junit5.svg" height="40" width="40" />       
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/jira.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/allure.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/allureTestOps.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/selenide.svg" height="40" width="40" />
+  <img align="center" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/icons/telegram.svg" height="40" width="40" />
 </p>
 ---
 
@@ -45,7 +45,7 @@
 ---
 ### CI CD Jenkins
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jenkinsProject.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/jenkinsProject.jpg"/>
 
 </pre>
 
@@ -68,48 +68,48 @@ clean vacancyProjectRegress
 
 ### Allure reporting
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReport.jpg"/>  
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/allureReport.jpg"/>  
 
 </pre>
 
 Shows test details: steps, page source, screenshots of last test step, video, browser console logs.
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureReportTaskSteps.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/allureReportTaskSteps.jpg"/>
 
 </pre>
 ---
 ### Integration with Allure TestOps
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsDashboard.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/allureTestOpsDashboard.jpg"/>
 
 </pre>
 
 Test run statistics in Allure TestOps:
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsAutomatedTestCases.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/allureTestOpsAutomatedTestCases.jpg"/>
 
 </pre>
 
 Launches:
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/allureTestOpsLaunches.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/allureTestOpsLaunches.jpg"/>
 
 </pre>
 
 ### Integration with Jira
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/jiraTask.jpg"/>
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/jiraTask.jpg"/>
 
 </pre>
 
 ### Notifications in Telegram
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/images/telegramBotNotifications.jpg"/>  
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/images/telegramBotNotifications.jpg"/>  
 
 </pre>
 
 ### Test execution example
 <pre>
-<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/staticFiles/video/VideoTestExample.gif"/>  
+<img align="left" src="https://github.com/EvgeniiaLV/inline_group_vacancy_project/blob/master/static.files/video/VideoTestExample.gif"/>  
 
 </pre>
