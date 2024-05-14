@@ -20,8 +20,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Successful search")
-    void successfulSearch() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void successfulSearchTest() {
 
         step("Open main page", () -> {
             inlineGroupMainPage.openPage();
@@ -42,8 +41,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Search with invalid value")
-    void searchWithInvalidValue() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void searchWithInvalidValueTest() {
 
         step("Open main page", () -> {
             inlineGroupMainPage.openPage();
@@ -64,8 +62,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Check default language: RU")
-    void checkDefaultLanguageLink() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkDefaultLanguageLinkTest() {
 
         step("Open main page", () -> {
             inlineGroupMainPage.openPage();
@@ -78,8 +75,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Verify switching language to EN")
-    void checkSwitchingLanguageToEN() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkSwitchingLanguageToENTest() {
 
         step("Open main page", () -> {
             inlineGroupMainPage.openPage();
@@ -97,8 +93,7 @@ public class HeaderTests extends TestBase {
     @Test
     @Disabled("Selected language doesn't correlate to the language of the error message. To be confirmed")
     @DisplayName("Verify page not found error message")
-    void checkPageNotFoundErrorMessage() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkPageNotFoundErrorMessageTest() {
 
         step("Open not existing page", () -> {
             inlineGroupMainPage.openNotExistingPage();
@@ -111,8 +106,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Verify social links opening: VK")
-    void checkVKOpening() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkVKOpeningTest() {
 
         step("Open not existing page", () -> {
             inlineGroupMainPage.openPage();
@@ -133,8 +127,7 @@ public class HeaderTests extends TestBase {
 
     @Test
     @DisplayName("Verify social links opening: YouTube")
-    void checkYouTubeOpening() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkYouTubeOpeningTest() {
 
         step("Open not existing page", () -> {
             inlineGroupMainPage.openPage();
@@ -156,8 +149,7 @@ public class HeaderTests extends TestBase {
     @Test
     @Disabled("To be updated soon")
     @DisplayName("Verify social links opening: Telegram")
-    void checkTelegramOpening() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
+    void checkTelegramOpeningTest() {
 
         step("Open not existing page", () -> {
             inlineGroupMainPage.openPage();
